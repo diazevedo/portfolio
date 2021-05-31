@@ -1,15 +1,19 @@
 import GlobalStyle from "../src/styles/global";
+import ProjectList from "./components/ProjectList";
 import Title from "./components/Title";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Title>
-        I'm a Product Designer with UI & UX skills who love to build powerful
-        and elegant products with x years of experience in the tech industry I'm
-        currently working at Lorem Ipsum.
-      </Title>
+      <main>
+        <Title>
+          DiAzevedo <span>full stack developer</span>
+        </Title>
+        <AboutMe />
+        <ProjectList />
+      </main>
     </>
   );
 }

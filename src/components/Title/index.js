@@ -1,19 +1,33 @@
 import styled from "styled-components";
 import { device } from "../../styles/medias";
 
-const Title = styled.h1`
-  font-size: 3.2rem;
+const Title = styled.h2`
+  font-size: 5.5rem;
   font-weight: 700;
-  line-height: 4rem;
+  text-align: center;
+  text-transform: uppercase;
 
   @media ${device.tablet} {
-    font-size: 4.8rem;
-    line-height: 5.6rem;
+    font-size: 6.25rem;
   }
 
   @media ${device.laptop} {
-    font-size: 5.6rem;
-    line-height: 8rem;
+    font-size: 7.25rem;
+  }
+
+  span {
+    display: block;
+    margin-top: 3rem;
+    font-size: 4rem;
+    line-height: 1.2em;
+
+    @media ${device.tablet} {
+      font-size: 5rem;
+    }
+
+    @media ${device.laptop} {
+      font-size: 6rem;
+    }
   }
 `;
 

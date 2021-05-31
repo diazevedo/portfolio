@@ -52,6 +52,17 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Inter', sans-serif;
     padding: 4rem 2rem;
+    background: #12122a;
+    color: #FFF;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  main {
+    max-width: 114rem;
+    margin: 0 auto;
   }
 `;
 export default GlobalStyle;
