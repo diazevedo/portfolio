@@ -10,6 +10,7 @@ export const Container = styled.section`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
   }
 `;
 
@@ -42,6 +43,7 @@ export const Text = styled.p`
   font-size: 1.8rem;
   margin-bottom: 6rem;
   font-weight: 400;
+  line-height: 2.9rem;
 
   @media (min-width: 768px) {
     max-width: 45%;
