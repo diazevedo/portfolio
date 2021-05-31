@@ -7,9 +7,9 @@ import { projects } from "../../data/projects";
 const ProjectList = () => {
   return (
     <Styled.Container>
-      {projects.map(({ id, name, image, description }) => (
-        <li>
-          <Project key={id} name={name} image={image} info={description} />
+      {projects.map(({ id, url, name, image, description }) => (
+        <li key={id}>
+          <Project name={name} image={image} info={description} url={url} />
         </li>
       ))}
     </Styled.Container>
